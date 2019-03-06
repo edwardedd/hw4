@@ -1,0 +1,121 @@
+.climber {
+	
+}
+.backround {
+	height: 100vh;
+	width: 100vw;
+}
+.climber_block {
+	background-image: url(img/bg-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Roboto Slab', serif;
+}
+.top_menu {
+	display: flex;
+	width: 80%;
+	height: 6vh;
+	color: #385F7C;
+	background: #FFF;
+	justify-content: space-around;
+	border-radius: 3vh;
+	align-items: center;
+	font-size: 1.8rem;
+}
+
+.community {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 6rem;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.describr {
+	font-size: 3rem;	
+	color: #FFF;
+	margin-top: 2vh;
+  margin-bottom: 4vh;
+}
+
+.go {
+	color: #31607e;
+	font-size: 3rem;
+	background: #fff;
+	border-radius: 5rem;
+	padding: 1rem 3rem; 
+	display: inline-block;
+}
+
+.challengs {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-around;
+	margin-right: 75vw;
+}
+
+.photo {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+
+.make {
+	font-size: 2rem;
+	color: white;
+
+}
+
+.footer_icon {
+	
+	height: 10vh;
+	width: 10vw;
+
+}
+
+
+@media screen and (max-width: 560px) {
+	.climber_block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		font-family: 'Roboto Slab', serif;
+	}
+
+	.small {
+		display: none;
+	}
+
+	
+
+
+	.community {
+		
+	}
+
+	.title {
+		font-size: 3rem;
+	}
+	.challengs {
+		display: none;
+	}
+
+
+}
